@@ -1,0 +1,150 @@
+body {
+        font-family: "Poppins", sans-serif;
+        background-color: #fff;
+        color: #22343d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+        margin: 0;
+}
+
+ul,
+ol {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+}
+
+a {
+        text-decoration: none;
+        color: inherit;
+}
+
+img {
+        display: block;
+}
+
+.container {
+        width: 1150px;
+        padding: 0 20px;
+        margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+}
+.header-container {
+        display: flex;
+        align-items: center;
+}
+.header-logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-right: 237px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 0.93;
+        color: #173a56;
+}
+.header-nav {
+        margin-right: 73px;
+}
+.header-nav-list {
+        display: flex;
+        /* gap: 30px; */
+}
+.header-nav-item:not(:last-child) {
+        margin-right: 30px;
+}
+.header-nav-link {
+        display: block;
+        padding: 26px 0;
+        line-height: 1.75;
+        color: #22343d;
+}
+.current {
+        font-weight: 600;
+}
+.header-btn-list {
+        display: flex;
+        gap: 21px;
+}
+.header-btn-item {
+}
+.header-btn {
+        border: 1px solid #bcd0e5;
+        border-radius: 4px;
+        min-width: 105px;
+        height: 42px;
+        background-color: transparent;
+        font-family: inherit;
+        font-weight: 600;
+        text-align: center;
+        color: #173a56;
+        cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+        color: #fff;
+        background-color: #02897a;
+        border: none;
+}
+
+/* MAIN SECTION  */
+
+.main-section {
+        padding-top: 25px;
+        padding-bottom: 100px;
+}
+.main-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.main-title {
+        max-width: 420px;
+        margin-bottom: 18px;
+        font-size: 40px;
+        line-height: 1.5;
+        color: #22343d;
+}
+.main-text {
+        max-width: 465px;
+        margin-bottom: 45px;
+        font-size: 18px;
+        line-height: 1.56;
+        color: #22343d;
+}
+.main-list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+}
+.main-start-btn {
+        border-radius: 4px;
+        min-width: 178px;
+        height: 53px;
+        border: none;
+        background-color: #02897a;
+        font-family: inherit;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+}
+.main-video-btn {
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #02897a;
+        border: none;
+        background-color: transparent;
+}
