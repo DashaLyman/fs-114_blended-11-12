@@ -148,3 +148,92 @@ img {
         border: none;
         background-color: transparent;
 }
+
+/* ABOUT SECTION  */
+
+.about {
+        padding-bottom: 100px;
+}
+.container {
+}
+.about-title {
+        max-width: 539px;
+        margin: 0 auto 50px auto;
+        font-size: 32px;
+        text-align: center;
+        color: #22343d;
+}
+.about-list {
+        display: flex;
+        gap: 30px;
+}
+.about-item {
+        width: calc((100% - 90px) / 4);
+}
+.about-item-title {
+        margin-bottom: 13px;
+        font-weight: 600;
+        font-size: 22px;
+        color: #22343d;
+}
+.about-item-text {
+        line-height: 1.625;
+        color: #22343d;
+}
+/* .about-icon-box {
+        border-radius: 19px;
+        width: 54px;
+        height: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 18px;
+}
+
+.about-item:nth-child(1) .about-icon-box {
+        background-color: #02897a;
+}
+
+.about-item:nth-child(2) .about-icon-box {
+        background-color: #4d8dff;
+}
+
+.about-item:nth-child(3) .about-icon-box {
+        background-color: #740a76;
+} */
+
+/* .about-item:nth-child(4) .about-icon-box {
+        background-color: #f03e3d;
+} */
+
+.about-item-title::before {
+        content: "";
+        width: 54px;
+        height: 54px;
+        border-radius: 19px;
+        margin-bottom: 18px;
+
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.about-item:nth-child(1) .about-item-title::before {
+        background-color: #02897a;
+        background-image: url(../images/icon-1.svg);
+      
+}
+
+.about-item:nth-child(2) .about-item-title::before {
+        background-color: #4d8dff;
+        background-image: url(../images/icon-2.svg);
+}
+.about-item:nth-child(3) .about-item-title::before {
+        background-color: #740a76;
+        background-image: url(../images/icon-3.svg);
+}
+
+.about-item:nth-child(4) .about-item-title::before {
+        background-color: #f03e3d;
+        background-image: url(../images/icon-4.svg);
+}
